@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Calculator Project Program</h1>
+    <div>
+      <table>
+        <tr >
+          <td colspan="3"><input id="inputText" type="text" ></td>
+          <td><input type="button" onclick="calc('R')" value="R"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="calc('1','number')" value="1"></td>
+          <td><input type="button" onclick="calc('2','number')" value="2"></td>
+          <td><input type="button" onclick="calc('3','number')" value="3"></td>
+          <td><input type="button" onclick="calc('+','simbol')" value="+"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="calc('4','number')" value="4"></td>
+          <td><input type="button" onclick="calc('5','number')" value="5"></td>
+          <td><input type="button" onclick="calc('6','number')" value="6"></td>
+          <td><input type="button" onclick="calc('-','simbol')" value="-"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="calc('7','number')" value="7"></td>
+          <td><input type="button" onclick="calc('8','number')" value="8"></td>
+          <td><input type="button" onclick="calc('9','number')" value="9"></td>
+          <td><input type="button" onclick="calc('*','simbol')" value="*"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="calc('%','simbol')" value="%"></td>
+          <td><input type="button" onclick="calc('0','number')" value="0"></td>
+          <td><input type="button" onclick="calc('=','simbol')" value="="></td>
+          <td><input type="button" onclick="calc('/','simbol')" value="/"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
